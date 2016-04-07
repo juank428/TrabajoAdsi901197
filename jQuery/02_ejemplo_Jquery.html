@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo jQuery</title>
+</head>
+<body>
+
+<h1>Ejemplo jQuery</h1>
+<hr>
+<p class="parrafo">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui, quas! Earum architecto totam nihil molestiae quia culpa animi saepe aperiam aut. Dolores sit pariatur, perferendis odit consequatur ad iusto.
+</p>
+
+<button> ocultar parrafo </button>
+
+<script src="js/jquery-1.12.3.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('button').click(function() {
+			$('p').hide();
+		});
+	});
+
+</script>
+	
+</body>
+</html>
